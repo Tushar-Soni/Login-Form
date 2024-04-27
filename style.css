@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+.img-section{
+    width: 40%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    background-image: url('./young-beautiful-business-woman-working-computer-cafe.jpg');
+
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.form-section{
+    width: 60%;
+    height: 100vh;
+    /* background-color: chocolate; */
+    padding: 40px;
+}
+
+.img-section img{
+    width: 100px;
+}
+.img-section h5{
+    color: orangered;
+    font-size: 22px;
+}
+
+.side{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 40px;
+}
+
+.heading h2{
+    font-size: 44px;
+    color: rgb(34, 34, 114);
+}
+.icon{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 30px;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-section hr{
+    width: 150px;
+}
+.input-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 30px;
+}
+
+.input-section input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.input-section button{
+    width: 350px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
